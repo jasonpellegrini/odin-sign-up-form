@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html,body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("media/sky.jpg");
+    background-size:cover;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+}
+
+#main {
+    background-color: rgb(227, 231, 235);
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+#logo {
+    height: 100px;
+    width: 160px;
+    opacity: 1;
+    margin-right: 3px;
+}
+
+#banner {
+    background-color:rgb(121, 121, 121, 0.7);
+    width:40%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    right: 60%;
+    bottom: 500px;
+    
+}
+
+#logoText {
+    font-family: 'Inter Tight', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 3px;
+    padding-top: 53px;
+}
+
+#formDiv {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 40%;
+    margin: 0;
+}
+
+.bigText {
+    font-family: 'Inter Tight', sans-serif;
+    margin-left: 39px;
+    margin-right: 0px;
+    font-size: 1.5rem;
+    position: static;
+    margin-top: 0px;
+    
+}
+
+#formDiv {
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 60px;
+  }
+
+  label {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+  }
+
+  .formRow {
+    display: flex;
+    justify-content: left;
+  }
+
+  .forms {
+    display:flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+
+  #mainForm {
+    width: 100%;
+    margin-left: 39px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+  }
+  #midSection{
+    padding: none;
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  #formText {
+    margin-bottom: 0;
+    margin-top: 16px;
+  }
+
+  button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    width: 200px;;
+    padding: 12px;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color: rgb(191, 214, 240);
+    white-space: nowrap;
+  }
+
+  input:hover {
+    border: 1px solid rgb(191, 214, 240);
+  }
+
+  button:hover {
+    background-color: black;
+    color: white;
+  }
